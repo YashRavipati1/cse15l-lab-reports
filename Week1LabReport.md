@@ -55,6 +55,7 @@ These commands include:
 **Try some of these commands!**
   
 An example of some of these commands being used:
+ 
 <img width="775" alt="Screenshot 2023-01-11 at 2 18 02 PM" src="https://user-images.githubusercontent.com/63521936/211930029-1c315368-024a-4d5d-9510-1feb7da18f80.png">
 
 (Something interesting happens with the underlined command - we can't open the directory as we are trying to open a directory owned by someone else, and we are not logged into their account)
