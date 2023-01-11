@@ -38,13 +38,13 @@
 These commands include:
 
 > cd ~
-> 
+
 > cd
-> 
+
 > ls -lat
-> 
+
 > ls -a
-> 
+
 > ls <directory> where directory is /home/linux/ieng6/cs15lwi23/(*someone's account name*)
   
 > cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
