@@ -18,7 +18,9 @@
 - Open up the Terminal in VSCode, which can be found at the bottom
 - In the Terminal, type in 
           
-        ssh (name of your course-specific account), like this:
+        ssh (name of your course-specific account) 
+        
+like this:
 
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/63521936/211928724-f2fd810a-270b-466a-b63b-6d37defb5b19.png">
 
