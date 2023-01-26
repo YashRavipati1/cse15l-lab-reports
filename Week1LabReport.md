@@ -49,6 +49,7 @@ These commands include:
 
     ls -lat
           Gives a long listing of all files with more details for each file
+          
     ls -a
           Lists all the files or directories within the working directory
 
