@@ -37,23 +37,20 @@
 
 These commands include:
 
-'''
-{
-  cd ~
+    cd ~
 
-  cd
+    cd
 
-  ls -lat
+    ls -lat
 
-  ls -a
+    ls -a
 
-  ls <directory> where directory is /home/linux/ieng6/cs15lwi23/(*someone's account name*)
+    ls <directory> where directory is /home/linux/ieng6/cs15lwi23/(*someone's account name*)
   
-  cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+    cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
   
-  cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-}
-'''
+    cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
   
 **Try some of these commands!**
   
