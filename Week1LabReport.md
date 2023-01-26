@@ -41,19 +41,27 @@ like this:
 
 These commands include:
 
-    cd ~
+    cd ~:
+          Used to go to home folder of current directory
 
-    cd
+    cd:
+          Used to go to a specific directory
 
     ls -lat
-
+          Gives a long listing of all files with more details for each file
     ls -a
+          Lists all the files or directories within the working directory
 
     ls <directory> where directory is /home/linux/ieng6/cs15lwi23/(*someone's account name*)
+          Attempts to list all the files/directories in someone else's directory, which fails as you do not have access
   
     cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+          Copies the hello.txt file into the home directory
   
     cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+          View content of hello.txt
+
+
 
   
 **Try some of these commands!**
