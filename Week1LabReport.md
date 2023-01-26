@@ -38,6 +38,7 @@
 These commands include:
 
 '''
+{
   cd ~
 
   cd
@@ -51,6 +52,7 @@ These commands include:
   cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
   
   cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+}
 '''
   
 **Try some of these commands!**
