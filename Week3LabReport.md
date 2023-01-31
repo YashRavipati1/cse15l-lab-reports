@@ -83,10 +83,11 @@ Non Failure Inducing Input
         assertEquals(expected, result);
     }
     
-Symptom:
+# Symptom:
+
 ![image](https://user-images.githubusercontent.com/63521936/215640945-c35fc38c-d921-4707-a5da-691f9c9e6855.png)
 
-Bug:
+# Bug:
 
 Before:
 
