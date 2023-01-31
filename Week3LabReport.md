@@ -1,6 +1,6 @@
 # Week 3 Lab Report
 
-## Part 1 - String Server
+# Part 1 - String Server
 
 String Server Code:
 
@@ -50,7 +50,7 @@ Methods Called:
 - HandleRequest - Takes in the argument URL, which is what is used in the browser. The URL is used to identify if there is a message to add, and what the message is. When this function is called, the message is added on a new line to the variable str, which is the field that stores the string to be printed on the website.
 
 
-## Part 2 - Testing
+# Part 2 - Testing
 
 Failure Inducing Input:
 
@@ -83,11 +83,11 @@ Non Failure Inducing Input
         assertEquals(expected, result);
     }
     
-# Symptom:
+## Symptom:
 
 ![image](https://user-images.githubusercontent.com/63521936/215640945-c35fc38c-d921-4707-a5da-691f9c9e6855.png)
 
-# Bug:
+## Bug:
 
 Before:
 
@@ -115,6 +115,6 @@ After:
 
 The fix ensures that the words that pass the filter are added at the end of the List instead of the start. This is by changing result.add(0, s) to result.add(s).
 
-## Part 3
+# Part 3
 
 I learned how to build and run a web server. This includes how to start a server on a specific port and how to open the server on a browser using localhost. I also learned how to manipulate what the web server does using the URL path and search queries using URI objects. I was then able to start the web servers I made on a remote computer, a skill I didn't have before.
