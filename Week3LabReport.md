@@ -113,3 +113,7 @@ After:
       }
 
 The fix ensures that the words that pass the filter are added at the end of the List instead of the start. This is by changing result.add(0, s) to result.add(s).
+
+## Part 3
+
+I learned how to build and run a web server. This includes how to start a server on a specific port and how to open the server on a browser using localhost. I also learned how to manipulate what the web server does using the URL path and search queries. I was then able to start the web servers I made on a remote computer, a skill I didn't have before.
