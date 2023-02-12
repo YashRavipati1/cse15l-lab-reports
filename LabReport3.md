@@ -77,5 +77,42 @@ Output:
         
 This commmand is looking through the travel_guides directory for any files that contain the word India. As there are two directories in addition to text files, it labels the two as directories and doesn't look through them, a useful feature when a directory you want to look through contains both files and directories.
 
+## Grep -c
 
+Found: https://linuxcommand.org/lc3_man_pages/grep1.html
 
+        grep -c India HistoryIndia.txt 
+        
+Output:
+
+        111
+        
+This command counts how many lines contain a certain word instead of displaying all of them. This is useful when trying to just find out how many of something exists in a file.
+
+        grep -c India files_results
+
+Output:
+
+        4
+
+This command counts how many lines in files-results contains a certain word, meaning it counts how many filenames in berlitz1 contain the word. This is useful when trying to find out how many files contain a certain word in the name.
+
+## Grep -w
+
+Found: https://linuxcommand.org/lc3_man_pages/grep1.html
+
+        yashravipati@Yashs-MacBook-Pro berlitz1 % grep -w add HistoryIndia.txt
+
+Output:
+
+        add the title Empress of India to her roll of honor, proclaimed that
+
+This command searches for the whole word, instead of just what could be the inputted pattern as a part of another word. This is useful when trying to look for certain words that are often parts of other words.
+
+        grep -w HistoryIndia find_results.txt
+
+Output:
+
+        berlitz1/HistoryIndia.txt
+        
+This command searches for the word HistoryIndia in find_results, which contains all the filenames in berlitz1. This is useful when trying to find if a certain file exists, especially when the filename is likely to be a part of another filename.
