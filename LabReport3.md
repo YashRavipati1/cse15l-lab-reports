@@ -2,4 +2,80 @@
 
 ## Grep -v
 
+Found: ChatGPT
+
         grep -v History find_results.txt 
+
+Output:
+
+        berlitz1
+        berlitz1/HandRLasVegas.txt
+        berlitz1/IntroMalaysia.txt
+        berlitz1/HandRIstanbul.txt
+        berlitz1/HandRJamaica.txt
+        berlitz1/HandRHongKong.txt
+        berlitz1/IntroEdinburgh.txt
+        berlitz1/IntroDublin.txt
+        berlitz1/IntroFrance.txt
+        berlitz1/IntroMadeira.txt
+        berlitz1/WhatToLakeDistrict.txt
+        berlitz1/IntroIbiza.txt
+        ...
+
+This command is searching through the txt file find_results, which contains all the file names from berlitz1, for the lines that do not contain the word "History." This can be useful when looking to make sure all files have a certain naming pattern, or just when you want to ignore certain files in search.
+
+        grep -v Japan IntroJapan.txt
+        
+Output:
+
+        Its famous bullet trains zip through the country at up to
+        300 km (186 miles) per hour. Its factories feature the latest
+        generation of industrial robots that don’t eat, don’t sleep, and never
+        strike. Its high-tech consumer electronics companies have placed
+        affordable — and notoriously reliable — electronic products in
+        households around the world.
+        But peel back a layer and a different picture starts to
+        social roots still lie deeply in its past as a feudal society of
+        countless closely knit agricultural communities dominated by a small
+        political elite.
+        ...
+        
+This command is searching through the file IntroJapan.txt for all the lines that do not contain the word Japan. This function is especially useful when trying to ignore certain words when looking through a txt file.
+
+## Grep -l
+
+Found: ChatGPT
+
+        grep -l India /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/*
+        
+Output:
+
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HandRIsrael.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryEgypt.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryFWI.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryFrance.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryGreek.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryHongKong.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryIndia.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryIstanbul.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryLasVegas.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/HistoryMalaysia.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/IntroFWI.txt
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/IntroIndia.txt
+        ...
+        
+This command is searching through the berlitz1 directory for any files that contain the word India. This is useful when looking for files that have certain contents.
+
+        grep -l India /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/*  
+     
+Output:
+
+        grep: /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1: Is a directory
+        grep: /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/berlitz2: Is a directory
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/files_results
+        /Users/yashravipati/Documents/GitHub/docsearch/written_2/travel_guides/find_results.txt
+        
+This commmand is looking through the travel_guides directory for any files that contain the word India. As there are two directories in addition to text files, it labels the two as directories and doesn't look through them, a useful feature when a directory you want to look through contains both files and directories.
+
+
+
