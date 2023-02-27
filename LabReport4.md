@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/63521936/221541238-2feeadb1-1f2f-4666-976b-f844fd0e7ed9.png)
 
-<up><enter>
+&ltup&gt<enter>
   
 ## Step 5
   
