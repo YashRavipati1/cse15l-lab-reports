@@ -15,7 +15,7 @@
   
 ## Step 6
   
-cd lab7
+`cd lab7 <enter>`
   
 ![image](https://user-images.githubusercontent.com/63521936/221547105-94a3a5fa-dc0b-44fa-ad7d-31187c137669.png)
 
