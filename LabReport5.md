@@ -30,5 +30,5 @@ The bash script I created to complete the challenge tasks looks like this:
 This was the terminal output from running the bash script: 
 ![image](https://user-images.githubusercontent.com/63521936/224871887-da20c27f-a934-4af8-b31b-9a6255b7484c.png)
 
-The total runtime was about 4 seconds, with most of this time due to the git clone and git push commands (as these have to interact with the remote repository)
+The total runtime was about 4 seconds, with most of this time due to the git clone and git push commands (as these have to interact with the remote repository).
 This was much faster than my time during the competition, proving how useful bash scripts can be in improving efficiency/speed.
