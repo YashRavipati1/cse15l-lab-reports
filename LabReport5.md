@@ -8,23 +8,23 @@ These commands would include git commands, such as git clone and git commit, fil
 
 The bash script I created to complete the challenge tasks looks like this:
 
-`git clone git@github.com:YashRavipati1/lab7Y.git
-cd lab7Y
+    git clone git@github.com:YashRavipati1/lab7Y.git
+    cd lab7Y
 
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+    javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+    java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
-sed -i .bak "s/result.add(0, s);/result.add(s);/" ListExamples.java
-sed -i .bak '43s/.*/index2+=1;/' ListExamples.java
+    sed -i .bak "s/result.add(0, s);/result.add(s);/" ListExamples.java
+    sed -i .bak '43s/.*/index2+=1;/' ListExamples.java
 
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+    javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+    java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
-git add ListExamples.java
-git commit -m "hello"
-git push`
+    git add ListExamples.java
+    git commit -m "hello"
+    git push
 
 
 This was the terminal output from running the bash script: 
